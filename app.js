@@ -1,24 +1,27 @@
-const Elevator = require("./elevator.js");
-
 const prompt = require('prompt-sync')({sigint: true}); //So we can exit with Ctrl+c
 
 
 
 let position = 0; //We enter on the ground floor
-let elevator1 = new Elevator(0);
-let elevator2 = new Elevator(6);
+let inside = true;
 
 
-
+/*
 console.log("Welcome to the Elevator Building");
 
-while (true){
+while (inside){
     console.log("Options:");
     console.log("1. Exit");
+    console.log("2. Go up");
+    console.log("3. Go down")
     const option = Number(prompt("What would you like to do? "));
-    if (option == 1){
-        break;
+    switch(option){
+        case 1:
+            inside = false;
+            break;
+        case 2:
+            elevator1.setFloor()
     }
 }
 
-console.log("Bye!");
+console.log("Bye!");*/
