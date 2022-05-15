@@ -1,0 +1,22 @@
+{
+  "name": "elevator",
+  "version": "1.0.0",
+  "description": "Admission test",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RBzs/elevator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RBzs/elevator/issues"
+  },
+  "homepage": "https://github.com/RBzs/elevator#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
